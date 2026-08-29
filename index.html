@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#1b1a17" />
+  <meta name="description" content="Sora Coffee in Tagum City serves espresso, matcha, sandwiches, and pastries for dine-in or order-ahead pickup." />
+  <title>Sora Coffee — Tagum City</title>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#top" class="wordmark">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="7" fill="currentColor" fill-opacity="0.08"/>
+        <circle cx="16" cy="16" r="3.2" fill="#f0642c"/>
+        <path d="M22 10.5C20.2 7.8 15.5 7.5 12.5 9.8C9.2 12.2 9.5 16.5 13.5 18C17.5 19.5 18.8 22.8 16 24.8C13.5 26.5 9.2 25.2 7.8 22.5" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+      </svg>
+      <span>SORA</span>
+    </a>
+    <nav><a href="#menu">Menu</a><a href="#story">About</a><a href="#visit">Hours & location</a></nav>
+    <button class="bag" id="bag-button">Order for pickup <span id="bag-count">0</span></button>
+  </header>
+    <nav><a href="#menu">Menu</a><a href="#story">About</a><a href="#visit">Hours & location</a></nav>
+    <button class="bag" id="bag-button">Order for pickup <span id="bag-count">0</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo"><video autoplay muted loop playsinline preload="auto" poster="/images/cafe.jpg" aria-hidden="true"><source src="/videos/Create_seconds_of_RAW_PHOTOR.mp4" type="video/mp4"></video><div class="photo-tag">Open today · 7AM–8PM</div></div>
+      <div class="hero-copy">
+        <p class="micro">Coffee shop · dine-in + pickup</p>
+        <h1>Coffee and food.<br><em>Order ahead.</em></h1>
+        <p class="intro">Order espresso, matcha, sandwiches, and pastries for dine-in or pickup. Most pickup orders are ready in 15–20 minutes.</p>
+        <div class="hero-offers" aria-label="Cafe offerings"><span>Espresso</span><span>Matcha</span><span>Sandwiches</span><span>Pastries</span><span>Order ahead</span></div>
+        <div class="hero-actions"><a href="#menu" class="solid">View menu ↘</a><button class="text-button" id="quick-order">Start pickup order ↗</button></div>
+        <div class="roast-note"><span>Today’s espresso</span><strong>Davao cacao · brown sugar · orange peel</strong></div>
+      </div>
+    </section>
+
+    <section class="marquee"><div>ESPRESSO · FILTER · MATCHA · SANDWICHES · PASTRIES · PICKUP · </div></section>
+
+    <section class="menu" id="menu">
+      <div class="menu-head"><div><p class="micro">Today’s menu</p><h2>Pick your drink.<br><em>Add something to eat.</em></h2></div><p>Tap any item to add it to a pickup order. Everything listed is also available for dine-in while supplies last.</p></div>
+      <div class="menu-columns">
+        <div class="menu-group"><h3>Coffee</h3>
+          <button class="menu-item" data-name="Flat White" data-price="150"><span><strong>Flat White</strong><small>double espresso · textured milk</small></span><b>₱150 ↗</b></button>
+          <button class="menu-item" data-name="Orange Espresso" data-price="170"><span><strong>Orange Espresso</strong><small>espresso · tonic · fresh orange</small></span><b>₱170 ↗</b></button>
+          <button class="menu-item" data-name="Pour Over" data-price="190"><span><strong>Pour Over</strong><small>ask the barista for today’s beans</small></span><b>₱190 ↗</b></button>
+        </div>
+        <div class="menu-group"><h3>Not coffee</h3>
+          <button class="menu-item" data-name="Sea Salt Matcha" data-price="185"><span><strong>Sea Salt Matcha</strong><small>ceremonial matcha · milk · salt cream</small></span><b>₱185 ↗</b></button>
+          <button class="menu-item" data-name="Cacao Cloud" data-price="175"><span><strong>Cacao Cloud</strong><small>Davao cacao · milk · cream</small></span><b>₱175 ↗</b></button>
+          <button class="menu-item" data-name="Sparkling Calamansi" data-price="140"><span><strong>Sparkling Calamansi</strong><small>calamansi · soda · raw sugar</small></span><b>₱140 ↗</b></button>
+        </div>
+        <div class="menu-group"><h3>Something to eat</h3>
+          <button class="menu-item" data-name="Egg Sando" data-price="220"><span><strong>Egg Sando</strong><small>soft egg · milk bread · mustard</small></span><b>₱220 ↗</b></button>
+          <button class="menu-item" data-name="Ham + Cheese Toastie" data-price="260"><span><strong>Ham + Cheese Toastie</strong><small>smoked ham · cheddar · sourdough</small></span><b>₱260 ↗</b></button>
+          <button class="menu-item" data-name="Brown Butter Cookie" data-price="95"><span><strong>Brown Butter Cookie</strong><small>dark chocolate · sea salt</small></span><b>₱95 ↗</b></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-number">02</div><div><p class="micro">About Sora</p><h2>Espresso, matcha,<br><em>sandwiches, pastries.</em></h2></div><div class="story-copy"><p>We’re a neighborhood café in Tagum City serving coffee, non-coffee drinks, and a short food menu for dine-in and pickup.</p><p>Our coffee beans rotate through the year. The main food and drink menu stays familiar.</p></div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-dark"><p class="micro">Hours & location</p><h2>Apokon Road<br><em>Tagum City.</em></h2><dl><div><dt>Mon–Fri</dt><dd>7AM–8PM</dd></div><div><dt>Sat–Sun</dt><dd>8AM–9PM</dd></div><div><dt>Pickup</dt><dd>Usually ready in 15–20 min</dd></div></dl></div>
+      <div class="visit-note"><span>Before you visit</span><p>Parking is easiest before 9AM. Outlets are available at the long table. Dogs are welcome in the outdoor area.</p><button id="visit-order">Order for pickup ↗</button></div>
+    </section>
+  </main>
+
+  <footer><span>SORA COFFEE</span><span>Apokon Road · Tagum City</span><span>Mon–Fri 7AM–8PM · Sat–Sun 8AM–9PM</span></footer>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-head"><div><p class="micro">Pickup order</p><h2>What would you like?</h2></div><button id="drawer-close">Close</button></div>
+    <div id="cart" class="cart"></div>
+    <div class="empty" id="empty">Your order is empty. Choose an item from the menu.</div>
+    <div class="pickup"><label>When do you want to pick it up?<select id="pickup-time"><option>ASAP · 15–20 min</option><option>11:30 AM</option><option>12:00 PM</option><option>12:30 PM</option><option>1:00 PM</option></select></label><label>Name for the order<input id="customer" placeholder="e.g. Andrea"></label></div>
+    <div class="drawer-total"><span>Total</span><strong id="total">₱0</strong></div>
+    <button class="checkout" id="checkout">Place pickup order ↗</button>
+    <div class="order-success" id="order-success"><span>✓</span><h3>Order received.</h3><p id="order-copy"></p><button id="new-order">Start a new order</button></div>
+  </aside>
+  <div class="shade" id="shade"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

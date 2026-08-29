@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#1b1a17"/>
+  <!-- Solar extraction mark: warm terracotta disk and fluid cream S contour -->
+  <circle cx="32" cy="32" r="6.5" fill="#f0642c"/>
+  <path d="M44 21C40.5 15.5 31 15 25 19.5C18.5 24.5 19 33 27 36C35 39 37.5 45.5 32 49.5C27 53 18.5 50.5 15.5 45" stroke="#f2eadc" stroke-width="4.2" stroke-linecap="round"/>
+</svg>
