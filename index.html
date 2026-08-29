@@ -27,7 +27,7 @@
 
   <main id="top">
     <section class="hero">
-      <div class="hero-photo"><video autoplay muted loop playsinline preload="auto" poster="/images/cafe.jpg" aria-hidden="true"><source src="/videos/Create_seconds_of_RAW_PHOTOR.mp4" type="video/mp4"></video><div class="photo-tag">Open today · 7AM–8PM</div></div>
+      <div class="hero-photo"><video autoplay muted loop playsinline preload="auto" poster="/images/cafe.jpg" aria-hidden="true"><source src="/videos/Create_seconds_of_RAW_PHOTOR.mp4" type="video/mp4"></video><div class="photo-tag">Dine-in + pickup · Tagum City</div></div>
       <div class="hero-copy">
         <p class="micro">Coffee shop · dine-in + pickup</p>
         <h1>Coffee and food.<br><em>Order ahead.</em></h1>
@@ -67,17 +67,17 @@
 
     <section class="visit" id="visit">
       <div class="visit-dark"><p class="micro">Hours & location</p><h2>Apokon Road<br><em>Tagum City.</em></h2><dl><div><dt>Mon–Fri</dt><dd>7AM–8PM</dd></div><div><dt>Sat–Sun</dt><dd>8AM–9PM</dd></div><div><dt>Pickup</dt><dd>Usually ready in 15–20 min</dd></div></dl></div>
-      <div class="visit-note"><span>Before you visit</span><p>Parking is easiest before 9AM. Outlets are available at the long table. Dogs are welcome in the outdoor area.</p><button id="visit-order">Order for pickup ↗</button></div>
+      <div class="visit-note"><span>Before you visit</span><p>Pickup orders are usually ready in 15–20 minutes. Dine-in seating is first come, first served during busy periods.</p><button id="visit-order">Order for pickup ↗</button></div>
     </section>
   </main>
 
-  <footer><span>SORA COFFEE</span><span>Apokon Road · Tagum City</span><span>Mon–Fri 7AM–8PM · Sat–Sun 8AM–9PM</span></footer>
+  <footer><span>SORA COFFEE</span><span>Apokon Road · Tagum City</span><span>Dine-in + pickup · Mon–Fri 7AM–8PM · Sat–Sun 8AM–9PM</span></footer>
 
   <aside class="drawer" id="drawer" aria-hidden="true">
     <div class="drawer-head"><div><p class="micro">Pickup order</p><h2>What would you like?</h2></div><button id="drawer-close">Close</button></div>
     <div id="cart" class="cart"></div>
     <div class="empty" id="empty">Your order is empty. Choose an item from the menu.</div>
-    <div class="pickup"><label>When do you want to pick it up?<select id="pickup-time"><option>ASAP · 15–20 min</option><option>11:30 AM</option><option>12:00 PM</option><option>12:30 PM</option><option>1:00 PM</option></select></label><label>Name for the order<input id="customer" placeholder="e.g. Andrea"></label></div>
+    <div class="pickup"><label>When do you want to pick it up?<select id="pickup-time"><option>ASAP · 15–20 min</option><option>11:30 AM</option><option>12:00 PM</option><option>12:30 PM</option><option>1:00 PM</option></select></label><label>Name for the order<input id="customer" placeholder="Your name" autocomplete="name"></label></div>
     <div class="drawer-total"><span>Total</span><strong id="total">₱0</strong></div>
     <button class="checkout" id="checkout">Place pickup order ↗</button>
     <div class="order-success" id="order-success"><span>✓</span><h3>Order received.</h3><p id="order-copy"></p><button id="new-order">Start a new order</button></div>
